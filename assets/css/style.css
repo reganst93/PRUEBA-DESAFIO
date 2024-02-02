@@ -30,3 +30,19 @@ nav {
     text-align: justify;
   }
 }
+#destacados {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.card-img-top {
+  width: 100%;
+  height: 80%;
+}
+
+.card-body {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.form {
+  margin-bottom: 4%;
+}
