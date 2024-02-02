@@ -11,6 +11,8 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f0ee5ede39.js" crossorigin="anonymous"></script>
 
@@ -21,6 +23,163 @@
 </head>
 
 <body>
+    <nav class="navbar fixed-top navbar-expand-lg p-md-3 " data-bs-theme="dark" style="background-color: transparent;">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="titulonav"><img src="assets/img/viajes.svg" alt="logo" class="logo">Viajes
+                Chile</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Quienes Somos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="animales">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Moái">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="pinguinos">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <section>
+        <div class="container px-4 mt-5">
+            <h2 class="text-center">Quienes somos</h2>
+            <hr class="hr hr-blurry" id="lineas" />
+            <div class="row gx-5">
+                <div class="col-md-4">
+                    <span class="badge text-bg-info"><i class="fa-solid fa-plane fa-2xl"
+                            style="color: #ffffff;"></i></span>
+                    <p class="Quienes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, autem
+                        quibusdam inventore
+                        harum facilis corporis velit incidunt est provident iste minima. Fuga voluptate repudiandae ipsa
+                        dolorum voluptatibus facere, odit minus. Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Quae debitis unde ducimus amet modi pariatur necessitatibus sequi facilis nihil deleniti
+                        ipsam, ex quibusdam alias optio reiciendis est similique accusantium minus?</p>
+
+                </div>
+                <div class="col-md-4">
+                    <p class="Quienes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa enim aspernatur
+                        sint cupiditate
+                        earum qui excepturi molestiae ullam atque! Ratione mollitia optio praesentium est hic maxime
+                        voluptatibus ducimus recusandae suscipit. Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Dolor, rerum laborum! Dolorum dolor in porro exercitationem quidem consectetur, quam hic.
+                        Laborum ipsa dolor laboriosam aspernatur facilis aliquid amet asperiores. Expedita?</p>
+                    <span class="badge text-bg-info"><i class="fa-solid fa-mountain-sun fa-2xl"
+                            style="color: #ffffff;"></i></span>
+                </div>
+                <div class="col-md-4">
+                    <span class="badge text-bg-info"><i class="fa-solid fa-map-location-dot fa-2xl"
+                            style="color: #ffffff;"></i></span>
+                    <p class="Quienes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, cumque
+                        optio nihil
+                        consectetur eaque dolores! Officiis quasi minima unde optio! Magni aliquam excepturi distinctio
+                        sint facere! Optio dolorem nam animi! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum provident perspiciatis, quibusdam enim facere deleniti veniam repellat incidunt
+                        commodi? Dolorum cumque nisi vel vero perspiciatis fuga itaque, autem cum! Corrupti?</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="text-center">Destacados</h2>
+            <hr class="hr hr-blurry" id="lineas" />
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3 py-2"> <!-- Ajuste aquí -->
+                    <div class="card h-100 d-flex">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="panqueques">
+                        <div class="card-body">
+                            <h5 class="card-title" id="card1">PANQUEQUES CON MANJAR Y CREMA</h5>
+                            <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est
+                                vulputate nostra, blandit erat luctus faucibus orci</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 py-2"> <!-- Ajuste aquí -->
+                    <div class="card h-100 d-flex">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="tiramisu">
+                        <div class="card-body">
+                            <h5 class="card-title" id="card2">TIRAMISÚ</h5>
+                            <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
+                                lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 py-2"> <!-- Ajuste aquí -->
+                    <div class="card h-100 d-flex">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="plateada">
+                        <div class="card-body">
+                            <h5 class="card-title" id="card3">PLATEADA</h5>
+                            <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam
+                                laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 py-2"> <!-- Ajuste aquí -->
+                    <div class="card h-100 d-flex">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="otra_imagen">
+                        <div class="card-body">
+                            <h5 class="card-title" id="card4">OTRO PLATO</h5>
+                            <p class="card-text">Descripción del otro plato.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    </section>
+
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 

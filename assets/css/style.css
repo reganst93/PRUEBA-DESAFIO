@@ -1,0 +1,32 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+  color: white;
+}
+.logo {
+  width: 40px;
+}
+#titulonav {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+}
+nav {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+}
+.badge.text-bg-info {
+  width: 100%;
+  height: 30px;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+.Quienes {
+  text-align: justify;
+}
+@media (max-width: 767px) {
+  .Quienes {
+    margin-bottom: 1.5rem; /* Ajusta según sea necesario */
+    text-align: justify;
+  }
+}
